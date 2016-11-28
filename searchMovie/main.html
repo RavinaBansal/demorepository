@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title>Movie Search</title>
+
+		<!-- <meta name="description" content=""> -->
+		<meta charset="utf-8">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Jquery link -->
+		<script src="https://code.jquery.com/jquery-1.8.1.min.js" integrity="sha256-/BhPlt0YeU4gTEEHWgCSO+fo5Wh0QjHXTy/fiSH3jSk=" crossorigin="anonymous"></script>
+		<!-- Custom JS -->
+		<script src="js/main.js"></script>
+
+		
+	</head>
+	<body>
+	<nav class="navbar navbar-inverse navbar-default fixed-top">
+		<div class="container-fluid">
+			<br><br>
+
+
+			<h1 id="heading">Search your Movie</h1>
+		</div>
+		<br><br>
+		<div class="row" id="rows">
+			<div class="col-md-4 ">
+				<form class="navbar-form">
+					<label id="labell"> Movie Name:</label>
+
+				</form>
+			</div>
+			<div class="col-md-4">
+				<form class="navbar-form">
+					<input type="text" id="movieTitle" class="form-control" placeholder="Enter the movie you want to search" />
+
+				</form>
+			</div>
+			<div class="col-md-4">
+				<form class="navbar-form" id="searchMovie">
+					<input type="button" class="form-control" value="Search"/>
+
+				</form>
+			</div>
+		</div>
+          <br>
+	</nav>		
+			<br>
+			<div class="row main">
+				<div class="col-xs-12 resultColumn">
+			    	<h2 id=resultTag>SEARCH RESULTS</h2>
+			    	<table class="table table-responsive" id="resultsTable">
+						<thead>
+							<tr>
+								<th>Poster</th>
+								<th>Title</th>
+								<th>Year</th>
+								<th>Type</th>
+							</tr>
+						</thead>
+						<tbody id="tableBody">
+							
+						</tbody>
+					</table>
+				</div><!--end table div -->
+			</div><!-- end row div-->
+
+
+		</div><!--container ends here-->
+
+				<div class="container" id="page">
+				  <ul class="pagination" id="pageList"></ul>
+				</div>
+
+	</body>
+</html>

@@ -1,0 +1,47 @@
+h2{
+  text-align: center;
+  color: grey;
+  font-family: 'Itim', cursive;
+}
+h1{
+  text-align: center;
+  color: grey;
+  font-family: 'Itim', cursive;
+  font-size: 70px;
+}
+
+#movietitle{
+  width:310px;
+  font-family: 'Itim', cursive;
+}
+
+.main th{
+  text-align: center;
+  font-family: 'Itim', cursive;
+}
+
+.main td{
+  text-align: center;
+  color: grey;
+  font-family: 'Itim', cursive;
+}
+#labell{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Itim', cursive;
+  color: white;
+
+img{
+  margin-left: auto;
+  margin-right: auto;
+ 
+  height:100px; 
+  width:100px;
+
+}
+
+
+
+#pageList{
+  float: right;
+}
